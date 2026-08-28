@@ -1038,14 +1038,15 @@ margin-right: 0; }
 </div>
 </div>
 </div>
-<div class="fragment fade-in">
+</section>
+<section id="causality-1" class="slide level2 center">
+<h2>Causality</h2>
 <p><strong>Notes:</strong></p>
 <ol type="1">
-<li>Causality is hard to establish because it requires knowing what value <span class="math inline">\(Y\)</span> would take if <span class="math inline">\(X\)</span> took its original value <em>and</em> if <span class="math inline">\(X\)</span> took some new value.</li>
-<li>Unlike mere statistical association, a causal effect is <em>not</em> symmetric: If <span class="math inline">\(X\)</span> has a causal effect, <span class="math inline">\(Y\)</span> typically does not have a causal effect on <span class="math inline">\(X\)</span>.</li>
-<li>A common source of error is assuming causal effects from statistical associations.</li>
+<li class="fragment">Causality is hard to establish because it requires knowing what value <span class="math inline">\(Y\)</span> would take if <span class="math inline">\(X\)</span> took its original value <em>and</em> if <span class="math inline">\(X\)</span> took some new value.</li>
+<li class="fragment">Unlike mere statistical association, a causal effect is <em>not</em> symmetric: If <span class="math inline">\(X\)</span> has a causal effect, <span class="math inline">\(Y\)</span> typically does not have a causal effect on <span class="math inline">\(X\)</span>.</li>
+<li class="fragment">A common source of error is assuming causal effects from statistical associations.</li>
 </ol>
-</div>
 </section>
 <section id="causality-and-association" class="slide level2 center">
 <h2>Causality and Association</h2>
@@ -1096,9 +1097,9 @@ margin-right: 0; }
 <section id="weaknesses-and-strengths-of-observational-studies" class="slide level2 center">
 <h2>Weaknesses and Strengths of Observational Studies</h2>
 <ol type="1">
-<li>Observational studies rarely justify causal conclusions. Without further information, you may assume causal conclusions are never justified from an observational study.</li>
-<li>They are usually less expensive than other types of studies, and can be used to form hypotheses that can be tested later.</li>
-<li>While we typically can only infer statistical association from observational studies, it is sometimes easier to generalize those associations to populations of interest <em>because we did not interfere with the process producing the data</em>.</li>
+<li class="fragment">Observational studies rarely justify causal conclusions. Without further information, you may assume causal conclusions are never justified from an observational study.</li>
+<li class="fragment">They are usually less expensive than other types of studies, and can be used to form hypotheses that can be tested later.</li>
+<li class="fragment">While we typically can only infer statistical association from observational studies, it is sometimes easier to generalize those associations to populations of interest <em>because we did not interfere with the process producing the data</em>.</li>
 </ol>
 </section>
 <section id="testing-causal-hypotheses" class="slide level2 center">
@@ -1118,7 +1119,9 @@ margin-right: 0; }
 <p>…causes blood pressure to fall by at least 5% <strong>on average</strong>…</p>
 </blockquote>
 <p>This is easier to demonstrate than if we said <strong>in each patient</strong>.</p>
-<div class="fragment fade-in">
+</section>
+<section id="a-note-about-averages-1" class="slide level2 center">
+<h2>A Note About Averages</h2>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1129,7 +1132,6 @@ margin-right: 0; }
 </div>
 <div class="callout-content">
 <p>Try to explain why it is easier to establish evidence for a causal claim about averages than about individual cases.</p>
-</div>
 </div>
 </div>
 </div>
@@ -1174,26 +1176,45 @@ margin-right: 0; }
 <section id="randomization-and-causality" class="slide level2 center">
 <h2>Randomization and Causality</h2>
 <ol type="1">
-<li>By randomizing individuals between groups, the researchers aim to produce groups that are alike in all variables <em>except</em> the explanatory and response variables.</li>
-<li>If they succeed, then any difference observed in the response variable can only be explained by the difference in the explanatory variable, justifying causal conclusions.</li>
-<li>Randomization can fail to produce similar treatment and control groups if the number of experiment participants is too small</li>
+<li class="fragment">By randomizing individuals between groups, the researchers aim to produce groups that are alike in all variables <em>except</em> the explanatory and response variables.</li>
+<li class="fragment">If they succeed, then any difference observed in the response variable can only be explained by the difference in the explanatory variable, justifying causal conclusions.</li>
+<li class="fragment">Randomization can fail to produce similar treatment and control groups if the number of experiment participants is too small</li>
 </ol>
 </section>
 <section id="placebos-blinding-and-controlling" class="slide level2 center">
 <h2>Placebos, Blinding, and Controlling</h2>
 <ol type="1">
-<li>Members of the control group are often given a <strong>placebo:</strong> something indistinguishable from the treatment but which is known to have no effect (e.g. a sugar pill).</li>
-<li>Placebos are important if knowledge of your group can affect your response variable.</li>
-<li>When participants don’t know what group they’re in, the study is <em>blind</em>. When the researchers also don’t know the treatment assignments, the study is <em>double-blind</em>.</li>
-<li>In general, researchers try to <em>control</em> any additional variables that might introduce differences between the treatment and control groups, attempting to assure any such variables are equal in the two groups throughout the study.</li>
-<li>Randomization, placebos, and blinding are all ways of controlling differences between treatment and control groups.</li>
+<li class="fragment">Members of the control group are often given a <strong>placebo:</strong> something indistinguishable from the treatment but which is known to have no effect (e.g. a sugar pill).</li>
+<li class="fragment">Placebos are important if knowledge of your group can affect your response variable.</li>
+<li class="fragment">When participants don’t know what group they’re in, the study is <strong>blind</strong>. When the researchers also don’t know the treatment assignments, the study is <em>double-blind</em>.</li>
 </ol>
+</section>
+<section id="placebos-blinding-and-controlling-1" class="slide level2 center">
+<h2>Placebos, Blinding, and Controlling</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Definition: Control</strong></p>
+</div>
+<div class="callout-content">
+<p>In general, researchers try to <strong>control</strong> any additional variables that might introduce differences between the treatment and control groups, meaning they try to ensure any such variables are equal in the two groups throughout the study.</p>
+</div>
+</div>
+</div>
+<p>Randomization, placebos, and blinding are all ways of controlling differences between treatment and control groups.</p>
 </section>
 <section id="limitations-of-experiments" class="slide level2 center">
 <h2>Limitations of Experiments</h2>
 <p>Sometimes randomized experiments are only possible with biased, unrepresentative samples.</p>
+<div class="fragment fade-in">
 <p><strong>Example:</strong> Pregnant women are excluded from the majority of clinical trials in order to eliminate the possibility of serious side effects in their unborn children</p>
+</div>
+<div class="fragment fade-in">
 <p>Consequently, less is known about whether and how drugs affect pregnant women and their children</p>
+</div>
 </section>
 <section id="the-project-star-experiment" class="slide level2 center">
 <h2>The Project STAR Experiment</h2>
